@@ -27,7 +27,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("https://www.w3schools.com/w3css/img_parallax2.jpg");
+    background-image: url("https://cdn.fstoppers.com/styles/full/s3/media/2014/12/1_fstoppers_davidgeffin_importanceofblackandwhite_light_shape_pattern.jpg");
     min-height: 400px;
 }
 
@@ -107,5 +107,6 @@ i.fa {
 .fa-codepen:hover {
   color: #4af;
 }
+
 
 #profile { vertical-align: middle; }

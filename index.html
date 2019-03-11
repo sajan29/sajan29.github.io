@@ -7,9 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel='stylesheet' href='https://www.w3schools.com/lib/w3.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
+
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
 
   
 </head>
@@ -45,16 +51,16 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h2 class="w3-center">ABOUT ME</h2>
   <p class="w3-center"><em>Looking for a job as Software or Web Development Engineer</em></p>
-  <p>I am Sajan Kumar Shaw. I am a dreamer whose dream is to build awesome things in the future and to contribute something useful to the world.But hey this website symbolizes that I contribute something in the world.</p>
+  <p>I am Sajan Kumar Shaw.My dream is to build awesome things in the future and to contribute something useful to the world.I am simple and optimistic and always try to improvise myself at each step of my life.</p>
   <!--  Profile Picture and Description  -->
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-section">
-      <img src="https://drive.google.com/file/d/1BKYBFCvHK92tHnFd-Rbmh5hMjRHvg0-T/view?usp=sharing" id="profile" class="w3-circle" alt="Photo of Me">
+      <img src="sajan_pic.jpg" height="300" width="300" id="profile" class="w3-circle" alt="Photo of Me">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-section">
-      <p>By the help of FreeCodeCamp I will be a Full Stack Web Developer soon!</p>
+      <p>I am interested in Competitive Programming and a Machine learning Enthusiast.My major skills are Python,C++,Java,Javascript.</p>
     </div>
   </div>
 </div>
@@ -69,12 +75,23 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
   <h2 class="w3-center">MY WORK</h2>
-  <p class="w3-center"><em>Here are some of my latest lorem work.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some of my Projects<br> Click on the links below to see the projects code</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <section class="color-8">
+        <nav class="cl-effect-2">
+          <a href="https://github.com/sajan29/Blog_App" target="_blank"><span data-hover="Blog App">Blog App</span></a>
+          <a href="https://github.com/sajan29/PongGame_Turtle" target="_blank"><span data-hover="Pong Game">Pong Game</span></a>
+          <a href="https://github.com/sajan29/HireACab" target="_blank"><span data-hover="Hire A Cab">Hire A Cab</span></a>
+          <a href="https://codepen.io/sajan29/pen/ypbGKx" target="_blank"><span data-hover="Weather App">Weather App</span></a>
+          <a href="https://codepen.io/sajan29/pen/eyeRPp" target="_blank"><span data-hover="Wikipedia Viewer">Wikipedia Viewer</span></a>
+          <a href="https://codepen.io/sajan29/pen/mWVQvx" target="_blank"><span data-hover="Random Quote Machine">Random Quote Machine</span></a>
+          <a href="https://drive.google.com/open?id=1H-3L6aDSThBqxkDEBvDd78jS5bMwiMSA" target="_blank"><span data-hover="Final Year Project">Final Year Project</span></a>
+        </nav>
+  </section>
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="https://unsplash.it/400/300?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      <!-- <img src="https://unsplash.it/400/300?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
     </div>
 
     <div class="w3-col m3">
@@ -104,11 +121,11 @@
     </div>
 
     <div class="w3-col m3">
-      <img src="https://unsplash.it/400/307?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+     <img src="https://unsplash.it/400/307?random" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">-->
     </div>
   </div>
 </div>
-
+ 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
@@ -126,8 +143,17 @@
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">Currently working as Assistant System Engineer in Tata Consultancy Services</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <h3 class="w3-center">You can have a look at My Resume</h3>
+  <p class="w3-center"><em>Feel free to give feedback</em></p>
+
+  <!--Embedding pdf-->
+  <p class="w3-center">
+    <a target="_blank" href="sajan_resume_2019.pdf">
+      <i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i>
+    </a>
+  </p>
+  
+
 
  <!-- <address class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -161,9 +187,9 @@
     <a target="_blank" href="https://www.freecodecamp.com/sajan29">
       <i class="fa fa-fire fa-2x"></i>
     </a>
-    <a target="_blank" href="https://www.facebook.com/sajan">
+    <!--<a target="_blank" href="https://www.hackerrank.com/sajan29">
       <i class="fa fa-facebook fa-2x"></i>
-    </a>
+    </a>-->
     <a target="_blank" href="https://codepen.io/sajan29/">
       <i class="fa fa-codepen fa-2x"></i>
     </a>
@@ -171,7 +197,13 @@
        <i class="fa fa-github fa-2x"></i>
     </a>
   </div>
-  <p class="w3-half">Made with <span class="heart-icon">❤</span> by Sajan Kumar Shaw and Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+  <p class="w3-half">Created by Sajan Kumar Shaw</p>
+  <!-- <div class="w3-half">
+    <p>Email-sajanshaw387@gmail.com</p>
+    <p>Contact-8981681266</p>
+  </div> -->
+  
+  
 </footer>
   <script src='https://maps.googleapis.com/maps/api/js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
