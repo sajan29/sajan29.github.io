@@ -100,12 +100,16 @@ i.fa {
   color: #4a4;
 }
 
-.fa-facebook:hover {
-  color: #04a;
+.fa-github:hover {
+  color: #d6d6c2;
 }
 
 .fa-codepen:hover {
   color: #4af;
+}
+.fa-linkedin-square:hover
+{
+  color:#6cf;
 }
 
 
